@@ -1,4 +1,56 @@
-import React from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import "bootstrap/dist/css/bootstrap.css"
+import Hero from './components/Hero';
+
+let firstElement = <h1>Hello World!!!</h1>;
+
+ReactDOM.render(<Hero/>,document.getElementById('root'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -15,3 +67,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+*/
